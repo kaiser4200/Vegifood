@@ -1,0 +1,497 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+section{
+    margin-bottom: 100px;
+}
+p{
+    margin: 0;
+}
+
+/*Style for Home Page*/
+
+/*Style for Header*/
+
+header .header-top{
+    background-color: #484848;
+}
+header .header-top .row .col-3 .wc-message{
+    color: #9f9e9c;
+    font-size: 0.7rem;
+    margin-top: 12px;
+}
+header .header-top .row .col-9 .nav .nav-item .nav-link{
+    color: #9f9e9c;
+    font-size: 0.75rem;
+    padding: .5rem 0.7rem;
+}
+header .header-top .row .col-9 .nav .nav-item .nav-link .input-group{
+    width: 86%;
+}
+header .header-top .row .col-9 .nav .search .nav-link .form-control{
+    width: 70%;
+    padding: 0 0 0 4px;
+    height: 25px;
+    border-radius: 0;
+}
+header .header-top .row .col-9 .nav .search .nav-link .btn{
+    border-radius: 0;
+    margin-left: -3px;
+    width: 26px;
+    height: 25px;
+    position: relative;
+}
+header .header-top .row .col-9 .nav .search .nav-link .btn i{
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+}
+header .bg-light{
+    background-color: #ffffff !important;
+}
+header .navbar .navbar-nav .nav-link{
+    font-size: 0.9rem;
+}
+header .navbar-light .navbar-nav .active > .nav-link{
+    color: #18d96e;
+}
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+}
+
+header .navbar-light .navbar-nav .currency .nav-link, header .navbar-light .navbar-nav .flag .nav-link{
+    border-right: 1px solid #dcdcdc;
+    padding: 0 1rem 0 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.8rem;
+}
+
+/*Style for New Product*/
+.newProduct .new-product-text{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 1.5rem;
+}
+.newProduct .card-deck .card .gender{
+    font-size: 0.7rem;
+    color: #626661;
+    margin-bottom: 1rem;
+}
+.newProduct .card-deck .card-body .card-title{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.newProduct .card-deck .card-body .card-text{
+    color: #626661;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+#divider{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #18d96e;
+}
+/*Style for Footer*/
+footer .info-text{
+    color: #18d96e;
+}
+footer h3{
+    font-size: 1.5rem;
+}
+footer li{
+    font-size: 1.1rem;
+}
+footer p{
+    font-size: 1.2rem;
+}
+footer .payment .fa-cc-visa{
+    color: #3957a7;
+}
+footer .payment .fa-cc-mastercard{
+    color: #ed820c;
+}
+footer .payment .fa-cc-stripe{
+    color: #852064;
+}
+footer .payment .fa-cc-jcb{
+    color: #9a9fb8;
+}
+
+footer .payment .fa-cc-paypal{
+    color: #9a9fb8;
+}
+
+footer .footer-bottom{
+    background-color: #484848;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/*Style for services*/
+#services{
+    margin-top: 60px;
+}
+#services .row .services-icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ebebeb;
+    color: #ffa800;
+}
+#services .row .services-icon:hover{
+    border-radius: 100%;
+    background-color: #ffa800;
+    color: #fff;
+    transition: border-radius 3s, background-color 3s, color 1s;
+}
+#services .row .services-icon i{
+    position: relative;
+}
+
+
+#services .row .col-md-4 .service{
+    width: 250px;
+}
+#services .row .col-md-4 .service h4{
+    font-size: 1rem;
+}
+#services .row .col-md-4 .service p{
+    font-size: 0.8rem;
+}
+
+/*Style for product category page*/
+/*Style for Breadcrumb*/
+
+.breadcrumb{
+    background-color: #fff;
+}
+#breadcrumb .breadcrumb li{
+    font-size: 0.9rem;
+}
+#breadcrumb .breadcrumb a{
+    color: #777777;
+}
+#breadcrumb .breadcrumb .active{
+    color: #ffb209;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 1.5rem;
+}
+
+/*Style for Content*/
+
+#content .color-golden{
+    border-color: #ffa800 !important;
+    display: inline-block;
+    width:90px;
+}
+
+#content .color-default{
+    border-color: #efefef !important;
+    display: inline-block;
+    width:120px;
+    margin-left: -4px;
+}
+.product-category{
+    overflow: hidden;
+}
+.category-border-color1{
+    width: 45%;
+    border-bottom: 1px solid #ffa800;
+    float: left;
+}
+.category-border-color2{
+    width: 55%;
+    border-bottom: 1px solid #f5f5f5;
+    float: left;
+}
+
+
+
+
+
+/*Style for product detail page*/
+/* Compatibility styles for frameworks like bootstrap, foundation e.t.c */
+.xzoom-source img, .xzoom-preview img, .xzoom-lens img {
+    display: block;
+    max-width: none;
+    max-height: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+/* --------------- */
+
+/* xZoom Styles below */
+.xzoom-container {
+    display: inline-block;
+}
+
+.xzoom-thumbs {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.xzoom {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.xzoom2, .xzoom3, .xzoom4, .xzoom5 {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+/* Thumbs */
+.xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+    border: 1px solid #cecece;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.xzoom-source, .xzoom-hidden {
+    display: block;
+    position: static;
+    float: none;
+    clear: both;
+}
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+    overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+    border: 1px solid #888;
+    background: #2f4f4f;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+}
+
+/* Lens */
+.xzoom-lens {
+    border: 1px solid #555;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+    cursor: crosshair;
+}
+
+/* Loading */
+.xzoom-loading {
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    opacity: .7;
+    background: url(../images/xloading.gif);
+    width: 48px;
+    height: 48px;
+}
+
+/* Additional class that applied to thumb when it is active */
+.xactive {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+    box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+    border: 1px solid #4aaad2;
+}
+
+/* Caption */
+.xzoom-caption {
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    text-align: left;
+}
+
+.xzoom-caption span {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#product h4{
+    color: #444444;
+    font-size: 1.5rem;
+}
+#product .review{
+    width: 300px;
+}
+#product .review p{
+    font-size: 0.8rem;
+}
+#product .review .border-color{
+    border-left: 1px solid #444444;
+
+}
+
+/*Style for sign up page*/
+.createAccount{
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+
+
+
+@media (max-width:768px)
+{
+
+    .fb-profile-text>h1{
+        font-weight: 700;
+        font-size:14px;
+    }
+
+    .fb-image-profile
+    {
+        margin:-50px 10px 0 50px;
+        z-index: 9;
+        width: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.spacialCheckbox-ul{
+}
+.nav-side-menu ul.spacialCheckbox-ul li:before{
+    content:"";
+}
+.spacialCheckbox{
+    position:relative;
+    line-height:20px;
+}
+.spacialCheckbox label{
+    position:relative;
+    padding-left:26px;
+    padding-top: 2px;
+    color:#333;
+    line-height:26px;
+}
+.spacialCheckbox label input[type="checkbox"]{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    visibility:hidden;
+}
+.spacialCheckbox label input[type="checkbox"] + i{
+    background:url(http://skyrites.com/projects/spaciux/images/checkbox.jpg) no-repeat left top;
+    width:25px;
+    height:25px;
+    display:inline-block;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+
+}
+.spacialCheckbox label input[type="checkbox"]:checked + i{
+    background:url(http://skyrites.com/projects/spaciux/images/checkbox.jpg) no-repeat left bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive breakpoints*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    html{
+        font-size: 0.65rem;
+    }
+
+    #services .container .col-sm-4{
+        margin-bottom: 1.5rem;
+    }
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html{
+        font-size: 0.65rem;
+    }
+
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html{
+        font-size: 0.75rem;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    html{
+        font-size: 0.8rem;
+    }
+    header .header-top .row .col-9 .nav .nav-item .nav-link{
+        padding: 0.5rem;
+    }
+    #services .row .services-icon {
+        width: 60px;
+        height: 60px;
+    }
+    #services .row .services-icon .fa-truck{
+        left: 18px;
+    }
+    #services .row .services-icon i{
+        top: 20px;
+        left: 21px;
+        font-size: 1.5rem;
+    }
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    html{
+        font-size: 1em;
+    }
+    #services .row .services-icon i{
+        font-size: 1.5rem;
+        top: 22px;
+        left: 22px;
+    }
+    #services .row .services-icon .fa-truck{
+        left: 19px;
+    }
+
+
+}
